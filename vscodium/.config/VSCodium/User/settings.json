@@ -237,6 +237,9 @@
     "vscode-neovim.neovimExecutablePaths.linux": "/home/rick/.local/bin/nvim-linux64/bin/nvim",
     "prettier.eslintIntegration": true,
     "editor.formatOnSave": true,
-    "workbench.activityBar.visible": false,
-    "workbench.editor.showTabs": true
+    "workbench.activityBar.visible": true,
+    "workbench.editor.showTabs": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "vscode-icons"
 }

@@ -45,9 +45,9 @@ bindsym $mod+F7 exec --no-startup-id displayselect
 bindsym $mod+F6 exec --no-startup-id sudo dmenumount
 bindsym $mod+F9 exec --no-startup-id dmenuumount
 #bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
-#bindsym Print exec --no-startup-id i3-scrot
-#bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
-#bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
+bindsym Print exec --no-startup-id i3-scrot
+bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
+bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 bindsym $mod+m exec --no-startup-id termite -e neomutt
 
@@ -130,6 +130,8 @@ set $ws5 5
 set $ws6 6
 set $ws7 7
 set $ws8 8
+set $ws9 9
+set $ws10 10
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -235,7 +237,7 @@ mode "resize" {
 
 # Autostart applications
 exec --no-startup-id xfce4-power-manager
-exec --no-startup-id pa-applet
+# exec --no-startup-id pa-applet
 # exec --no-startup-id blueman-applet
 exec --no-startup-id termite -e remaps
 exec --no-startup-id fcitx
@@ -249,7 +251,7 @@ exec --no-startup-id xautolock -time 10 -locker blurlock
 
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
 bar {
-	font pango:DejaVu Sans Mono, FontAwesome 10
+	font pango:DejaVu Sans Mono, FontAwesome 15
 	position top
 	status_command  /usr/bin/i3status-rs ~/.config/i3status_rust/config.toml
 
