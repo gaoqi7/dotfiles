@@ -244,7 +244,7 @@ exec --no-startup-id fcitx
 exec --no-startup-id dunst
 # Always have a terminal in scratchpad
 for_window [class="Termite" title="TER_PAD"] move scratchpad
-exec --no-startup-id termite -t TER_PAD
+exec --no-startup-id termite -t TER_PAD -e tmux
 
 exec --no-startup-id xautolock -time 10 -locker blurlock
 
