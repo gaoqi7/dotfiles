@@ -14,7 +14,7 @@ brew install \
 brew install --cask --no-quarantine alacritty
 
 brew install --cask \
-       	bettertouchtool karabiner-elements pdf-expert enpass alfred google-chrome vlc authy visual-studio-code transmission adguard forklift flume wechat vmware-fusion
+       	bettertouchtool karabiner-elements pdf-expert enpass alfred google-chrome vlc authy visual-studio-code transmission adguard forklift flume wechat vmware-fusion goldendict
 npm i -g alacritty-theme
 
 #For app Flume
