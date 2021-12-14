@@ -9,12 +9,12 @@ brew doctor
 /bin/bash -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # and some essentials
 brew install \
-	vim node tmux htop
+	vim node tmux htop mackup
 #The --no-quarantine option is needed because Alacritty isn’t part of the Apple developer program. 
 brew install --cask --no-quarantine alacritty
 
 brew install --cask \
-       	bettertouchtool karabiner-elements pdf-expert enpass alfred google-chrome vlc authy visual-studio-code transmission adguard forklift flume wechat virtualbox
+       	bettertouchtool karabiner-elements pdf-expert enpass alfred google-chrome vlc authy visual-studio-code transmission adguard forklift flume wechat vmware-fusion
 npm i -g alacritty-theme
 
 #For app Flume
