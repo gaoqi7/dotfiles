@@ -1,2 +1,2 @@
 # dotfiles
-Mackup is Good
+Now I need remove mockup. It is not that good.
