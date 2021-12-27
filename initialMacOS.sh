@@ -7,7 +7,7 @@ brew doctor
 
 # and some essentials
 brew install \
-	vim node tmux htop
+	vim node tmux htop bat
 #The --no-quarantine option is needed because Alacritty isn’t part of the Apple developer program. 
 brew install --cask --no-quarantine alacritty
 
