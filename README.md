@@ -1,2 +1,2 @@
 # dotfiles
-Now I need remove mockup. It is not that good.
+Finally, I find the right tool for me. The dotbot, which is, GREAT.

@@ -1,0 +1,12 @@
+- defaults:
+    link:
+      create: true
+      force: true
+      relink: true
+- clean: ['~']
+
+- link:
+    ~/.config/alcritty/alacritty.yml: alacritty.yml
+    ~/.config/karabiner/karabiner.json: karabiner.json
+    ~/.zshrc: zshrc
+    ~/.tmux.conf: tmux.conf
