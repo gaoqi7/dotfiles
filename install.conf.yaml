@@ -12,4 +12,5 @@
     ~/.tmux.conf: tmux.conf
     ~/.oh-my-zsh/custom/prompt.zsh: prompt.zsh
     ~/.oh-my-zsh/custom/aliases.zsh: aliases.zsh
+    ~/.vimrc: vimrc
     
