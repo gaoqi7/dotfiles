@@ -5,7 +5,7 @@ export ZSH="/Users/rick/.oh-my-zsh"
 ZSH_THEME="agnoster"
 
 # omz plugins
-plugins=(tmux git)
+plugins=(tmux git z)
 
 # Open tmux on startup, requires tmux plugin
 ZSH_TMUX_AUTOSTART=true

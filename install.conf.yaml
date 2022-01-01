@@ -6,8 +6,7 @@
 - clean: ['~']
 
 - link:
-    ~/.config/alcritty/alacritty.yml: alacritty.yml
-    ~/.config/karabiner/karabiner.json: karabiner.json
+    ~/.config/alacritty/alacritty.yml: alacritty.yml
     ~/.zshrc: zshrc
     ~/.tmux.conf: tmux.conf
     ~/.oh-my-zsh/custom/prompt.zsh: prompt.zsh
